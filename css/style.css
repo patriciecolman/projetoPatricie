@@ -1,11 +1,11 @@
-#body{
+#body {
     background: #d2d2c1;
     background-image: none;
-    
+
     font: 16px Arial, Helvetica, sans-serif;
 }
 
-.principal{
+.principal {
     position: relative;
     text-align: center;
     color: white;
@@ -16,15 +16,30 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    position: -webkit-sticky; /* Safari */
+    position: -webkit-sticky;
+    /* Safari */
     position: sticky;
     top: 0;
     background-color: #dddddd;
 }
 
+#phd {
+    background: linear-gradient(
+      to right, 
+      rgb(240, 160, 12), 
+      rgb(255, 46, 46)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    float: right;
+    padding: 14px 300px;
+  }
+
 li {
     display: inline;
-    float: left;
+    float: left;    
+    font-size:20px ;
 }
 
 li a {
@@ -33,12 +48,12 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
 li a:hover {
     background-color: #111;
     color: white;
-  }
+}
 
 .nomePaty {
     position: absolute;
@@ -48,13 +63,13 @@ li a:hover {
     font-family: "Sofia", sans-serif;
     font-size: 210px;
     text-shadow: 3px 3px 3px #ababab;
-  }
+}
 
 
 #menu {
-    background:#c5c5b2;
-   
-    padding: 20px ;
+    background: #c5c5b2;
+
+    padding: 20px;
 }
 
 #conteudo {
@@ -65,9 +80,10 @@ li a:hover {
 
 a {
     display: block;
-    padding: 8px;
+
     background-color: #dddddd;
-  }
+}
+
 .centralizar {
     text-align: center;
 }
